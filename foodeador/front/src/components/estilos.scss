@@ -1,0 +1,531 @@
+$verdeClaro: #59CB34;
+$verdeOscuro: #278707;
+
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap');
+
+*{
+    font-family: 'Sansita Swashed', cursive;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 92rem;
+    margin: 0 auto;
+
+
+}
+
+.flex-centro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mitad {
+    width: 50%
+}
+
+.tercio {
+    width: 33%;
+}
+
+.cuarto {
+    width: 25%;
+}
+
+.rojo-temporal {
+    background-color: red;
+}
+
+.azul-temporal {
+    background-color: aqua;
+}
+
+.p-pequeno {
+    padding: 20px;
+}
+
+.icono {
+    width: 400px;
+}
+
+.fila-responsive {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.guardar-precio-cont{
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+   
+}
+
+.titulo-precio{
+    background-color: $verdeOscuro;
+    color:white;
+    border-radius: 10px;
+    padding:10px;
+}
+
+.buscadores{
+    margin-top:150px;
+}
+
+
+.fondo-registro{
+    padding-top: 100px;
+}
+
+.fondo {
+    background-image:
+        linear-gradient(90deg, rgba(89, 203, 52, 0.5970763305322129) 0%, rgba(89, 203, 52, 0.6) 35%, rgba(89, 203, 52, 0.6) 100%),
+        url('./../assets/estanterias.png');
+
+}
+.form-super{
+    background-color: $verdeClaro;
+}
+
+.input-modificado{
+    width:100%;
+    padding:4px;
+    border:none;
+}
+
+
+
+
+.input-modificado-busqueda{
+    width:60%;
+    padding:4px;
+    outline: 4px solid $verdeClaro;
+    border:none;
+    margin-right: 25px;
+   
+    
+}
+
+.input-modificado:focus {
+    outline: 4px solid $verdeClaro;
+  }
+
+.guardar-super{
+    margin-top:100px;
+
+    &-entrada{
+        display:flex;
+        justify-content: start;
+        align-items: start;
+        flex-direction: column;
+        
+        width:100%;
+        >input{
+            width:100%;
+        }
+
+        &-foto{
+            width:70%;
+            margin-right: 20px;
+        }
+
+       
+    }
+    &-container{
+        display:flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+    }
+
+    &-abajo{
+        width:100%;
+    }
+}
+
+
+
+.contenido-fondo {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.fila-responsive-final {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.m-derecha {
+    margin-right: 20px;
+}
+
+.boton-div{
+    margin-top: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.tamano-medio{
+    font-size:25px;
+}
+
+.tamano-grande{
+    font-size:40px;
+}
+
+
+
+.titulo-grande{
+  
+    font-size:55px;
+    text-align:center;
+}
+
+.centrado{
+    text-align: center;
+}
+
+.contenido-identificacion{
+    padding-top: 100px;
+}
+
+
+.m-arriba{
+    margin-top: 20px;
+}
+
+.titulo-carta{
+    color:white;
+    font-size:35px;
+}
+
+.titulo-carta-grande{
+    color:white;
+    font-size:55px;
+}
+
+.titulo-carta-pequeno{
+    color:white;
+    font-size:25px;
+}
+
+.icono-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.form-registro {
+    background-color: $verdeClaro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    &-entrada {
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        flex-direction: column;
+    }
+}
+
+.icono-pequeno{
+    width: 250px;
+}
+
+.navbar{
+    background-color: $verdeClaro;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.form-identificacion {
+    background-color: $verdeClaro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    &-entrada {
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        flex-direction: column;
+    }
+}
+
+.cont-pruebas {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+}
+
+.boton {
+    background-color: $verdeOscuro;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+
+    cursor:pointer;
+}
+
+.aviso{
+    background-color: #008afc;
+   font-size:25px;
+    color:white;
+    position: fixed;
+  top: 10px;
+  right: 10px;
+  padding:10px;
+  border-radius:10px;
+}
+
+.botones-editar-eliminar{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+}
+
+.ancho-completo{
+    width:100%;
+}
+
+.fila-responsive-titulos{
+    display:flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 50px;
+    padding:20px;
+}
+
+.icono-navbar{
+    width: 140px;
+}
+
+
+
+.editar{
+    background-color: #008afc;
+    color:white;
+    padding:10px;
+    border-radius: 10px;
+    border:none;
+    cursor:pointer;
+    font-size: 25px;
+}
+.eliminar{
+    background-color: #fc0000;
+    color:white;
+    padding:10px;
+    border-radius: 10px;
+    border:none;
+    cursor:pointer;
+    
+    font-size: 25px;
+}
+.boton:hover{
+    background-color: white;
+    color:$verdeOscuro;
+    border:1px solid $verdeOscuro;
+}
+
+.footer{
+    background-color: $verdeClaro;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+    margin-top:100px;
+    color:white;
+}
+
+.caracs {
+margin-top:150px;
+
+    &-carta {
+        background-color: $verdeClaro;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding:30px;
+        border-radius: 20px;
+
+        &-titulo{
+            color:white;
+            font-size:35px;
+            text-align: center;
+        }
+        
+    }
+}
+
+.tres-cuartos {
+    width: 75%;
+}
+
+.contenido-producto{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: $verdeClaro;
+        border-radius: 10px;
+        padding:10px;
+}
+
+.contenido-producto-imagen{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+}
+.contenido-precio-guardar{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width:33%;
+}
+
+.fila-responsive-guardar-precio{
+    display: flex;
+        justify-content: center;
+        align-items: start;
+        
+}
+
+.numbers {
+    margin-top:150px;
+    &-cartas {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        &-carta {
+            background-color: $verdeClaro;
+            color: white;
+            border-radius: 50px;
+            font-size: 30px;
+        }
+    }
+}
+
+.icono-dibujo{
+    font-size: 100px;
+    color:white;
+}
+
+.centrado {
+    text-align: center;
+}
+
+.producto{
+    &-interior{
+        background-color: $verdeClaro;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 10px;
+        cursor:pointer;
+        &:hover{
+            background-color: $verdeOscuro;
+        }
+    }
+
+    
+}
+
+.interior-precio-carta{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:33%;
+    
+}
+
+.foto-producto{
+    width:200px;
+    height:200px;
+    object-fit:cover;
+
+}
+
+@media screen and (max-width:768px) {
+
+
+    .fila-responsive {
+        flex-direction: column;
+    }
+
+    .mitad,
+    .tercio,
+    .cuarto,
+    .tres-cuartos {
+        width: 100%;
+    }
+
+    .navbar{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .boton{
+        margin-bottom: 10px;
+    }
+
+   
+
+    .links{
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding:10px;
+    }
+
+    .input-modificado-busqueda{
+        margin-bottom: 10px;
+        width:90%;
+    }
+
+    .guardar-super-entrada-foto{
+        width:100%;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+
+    .guardar-precio-cont {
+        flex-direction: column;
+    }
+
+    .contenido-precio-guardar{
+        width:100%;
+        margin-bottom: 50px;
+    }
+}

@@ -1,0 +1,46 @@
+create table usuario(
+id int NOT NULL AUTO_INCREMENT,
+username varchar(100),
+password varchar(100),
+email varchar(100),
+primary key (id)
+);
+
+
+create table supermercado(
+id int NOT NULL AUTO_INCREMENT,
+idUsuario int,
+nombre varchar(100),
+direccionCompleta varchar(100),
+localizacion varchar(100),
+fechaApertura varchar(100),
+horario varchar(100),
+foto varchar(100),
+primary key (id),
+foreign key (idUsuario) references usuario(id)
+);
+
+create table producto(
+id int NOT NULL AUTO_INCREMENT,
+idUsuario int,
+nombre varchar(100),
+marca varchar(100),
+foto varchar(100),
+descripcion varchar(100),
+tipo varchar(100),
+primary key (id),
+foreign key (idUsuario) references usuario(id)
+);
+
+create table precio(
+id int NOT NULL AUTO_INCREMENT,
+idUsuario int,
+idSupermercado int,
+idProducto int,
+precio double,
+primary key (id),
+foreign key (idUsuario) references usuario(id),
+foreign key (idProducto) references producto(id),
+foreign key (idSupermercado) references supermercado(id)
+);
+

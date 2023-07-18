@@ -1,0 +1,24 @@
+C:\Users\jmlozanoo\Desktop\software\crud net\backend\back\NetCoreAPIMysql.model\bin\Debug\net6.0\NetCoreAPIMysql.model.deps.json
+C:\Users\jmlozanoo\Desktop\software\crud net\backend\back\NetCoreAPIMysql.model\bin\Debug\net6.0\NetCoreAPIMysql.model.dll
+C:\Users\jmlozanoo\Desktop\software\crud net\backend\back\NetCoreAPIMysql.model\bin\Debug\net6.0\NetCoreAPIMysql.model.pdb
+C:\Users\jmlozanoo\Desktop\software\crud net\backend\back\NetCoreAPIMysql.model\obj\Debug\net6.0\NetCoreAPIMysql.model.csproj.AssemblyReference.cache
+C:\Users\jmlozanoo\Desktop\software\crud net\backend\back\NetCoreAPIMysql.model\obj\Debug\net6.0\NetCoreAPIMysql.model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jmlozanoo\Desktop\software\crud net\backend\back\NetCoreAPIMysql.model\obj\Debug\net6.0\NetCoreAPIMysql.model.AssemblyInfoInputs.cache
+C:\Users\jmlozanoo\Desktop\software\crud net\backend\back\NetCoreAPIMysql.model\obj\Debug\net6.0\NetCoreAPIMysql.model.AssemblyInfo.cs
+C:\Users\jmlozanoo\Desktop\software\crud net\backend\back\NetCoreAPIMysql.model\obj\Debug\net6.0\NetCoreAPIMysql.model.csproj.CoreCompileInputs.cache
+C:\Users\jmlozanoo\Desktop\software\crud net\backend\back\NetCoreAPIMysql.model\obj\Debug\net6.0\NetCoreAPIMysql.model.dll
+C:\Users\jmlozanoo\Desktop\software\crud net\backend\back\NetCoreAPIMysql.model\obj\Debug\net6.0\refint\NetCoreAPIMysql.model.dll
+C:\Users\jmlozanoo\Desktop\software\crud net\backend\back\NetCoreAPIMysql.model\obj\Debug\net6.0\NetCoreAPIMysql.model.pdb
+C:\Users\jmlozanoo\Desktop\software\crud net\backend\back\NetCoreAPIMysql.model\obj\Debug\net6.0\ref\NetCoreAPIMysql.model.dll
+C:\Users\jmlozanoo\Desktop\software\supermercado\foodeador\back\NetCoreAPIMysql.model\bin\Debug\net6.0\NetCoreAPIMysql.model.deps.json
+C:\Users\jmlozanoo\Desktop\software\supermercado\foodeador\back\NetCoreAPIMysql.model\bin\Debug\net6.0\NetCoreAPIMysql.model.dll
+C:\Users\jmlozanoo\Desktop\software\supermercado\foodeador\back\NetCoreAPIMysql.model\bin\Debug\net6.0\NetCoreAPIMysql.model.pdb
+C:\Users\jmlozanoo\Desktop\software\supermercado\foodeador\back\NetCoreAPIMysql.model\obj\Debug\net6.0\NetCoreAPIMysql.model.csproj.AssemblyReference.cache
+C:\Users\jmlozanoo\Desktop\software\supermercado\foodeador\back\NetCoreAPIMysql.model\obj\Debug\net6.0\NetCoreAPIMysql.model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jmlozanoo\Desktop\software\supermercado\foodeador\back\NetCoreAPIMysql.model\obj\Debug\net6.0\NetCoreAPIMysql.model.AssemblyInfoInputs.cache
+C:\Users\jmlozanoo\Desktop\software\supermercado\foodeador\back\NetCoreAPIMysql.model\obj\Debug\net6.0\NetCoreAPIMysql.model.AssemblyInfo.cs
+C:\Users\jmlozanoo\Desktop\software\supermercado\foodeador\back\NetCoreAPIMysql.model\obj\Debug\net6.0\NetCoreAPIMysql.model.csproj.CoreCompileInputs.cache
+C:\Users\jmlozanoo\Desktop\software\supermercado\foodeador\back\NetCoreAPIMysql.model\obj\Debug\net6.0\NetCoreAPIMysql.model.dll
+C:\Users\jmlozanoo\Desktop\software\supermercado\foodeador\back\NetCoreAPIMysql.model\obj\Debug\net6.0\refint\NetCoreAPIMysql.model.dll
+C:\Users\jmlozanoo\Desktop\software\supermercado\foodeador\back\NetCoreAPIMysql.model\obj\Debug\net6.0\NetCoreAPIMysql.model.pdb
+C:\Users\jmlozanoo\Desktop\software\supermercado\foodeador\back\NetCoreAPIMysql.model\obj\Debug\net6.0\ref\NetCoreAPIMysql.model.dll
